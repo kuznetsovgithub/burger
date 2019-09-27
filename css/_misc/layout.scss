@@ -1,0 +1,31 @@
+html,body{
+  height: 100%;
+}
+
+body{
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  color: $black;
+  @include ubuntu();
+}
+
+.container{
+  margin: 0 auto;
+  position: relative;
+  max-width: 940px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-width: 940px + 20px;
+  min-height: 100%;
+  overflow: hidden; 
+}
