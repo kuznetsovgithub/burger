@@ -1,0 +1,84 @@
+.hero{
+  background: url(../img/slider_1/body__screen.png) center center / cover no-repeat;
+  // cover сделал картинку на весь экран .
+  // Масштабирует изображение с сохранением пропорций так, 
+  // чтобы его ширина или высота равнялась ширине или высоте блока.
+}
+.header {
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+  
+}
+.nav {
+  display: flex;
+  
+}
+.logo__header {
+  display: flex;
+}
+
+.btn-header {
+  display: flex;
+  margin-left: 27px;
+}
+.nav__list {
+  display: flex;
+  margin-left: 40px;
+  font-size: 14px;
+  
+}
+.nav__item {
+  display: flex;
+  align-items: center;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 10px;
+    
+  }
+  &:last-child::after{
+    display: none;
+  }
+}
+
+.nav__link {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+ 
+
+}
+
+.hero__content {
+  display: flex;
+  align-items: center;
+}
+.hero__content-desc {
+  color: #fff;
+  font-size: 55px; 
+  font-family: "Lifehack";
+}
+.hero__content-text {
+  padding-top: 115px;
+}
+.hero__burger{
+  max-width: 95%;
+  // всегда картинкам указываем максимальную ширину
+} 
+.hero__container {
+  flex: 0.8;
+  // всё свобондое место в контейнере
+  align-items: center;
+  display: flex;
+}
+.hero__iner-container {
+ justify-content: flex-start;
+}

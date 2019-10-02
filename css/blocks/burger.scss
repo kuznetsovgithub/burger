@@ -1,0 +1,81 @@
+.burger {
+    background: url(/img/slider_3/body__screen.png ) center center / cover no-repeat;
+}
+.burgers__content {
+    display: flex;
+}
+.burgers__btn__img {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: red;
+    // width: 70px;
+    // height: 80px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    background: $red;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.burgers__btn {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+
+    &:hover .burgers-menu__list {
+        display: flex;
+    }
+
+}
+
+.burgers-menu__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 200px;
+    height: 250px;
+    display:none;
+    position: absolute;
+    right: 45%;
+    opacity: 0.7;
+
+}
+.burger__icon { 
+    position: relative;
+}
+.burger__btn__title {
+    font-size: 11px;
+}
+.icons__call {
+    position: absolute;
+    top: 36%;
+    right: 91%;
+}
+.burgers__price {
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.burgers__text {
+    color: #fff;
+    font-size: 15px;
+    font-family: "gagalin";
+}
+.price {
+    display: flex;
+    // align-items: center;
+
+    font-size: 60px;
+    color: red;
+    padding-right: 20px;
+    font-weight: 700;
+}
