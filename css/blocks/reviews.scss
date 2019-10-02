@@ -8,6 +8,7 @@
     flex-wrap: wrap;
 }
 .reviews__item {
+   
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -18,12 +19,14 @@
     &:hover {
        .reviews__hover {
            opacity: 1;
+           color: white;
        }
     }
 
 }
 
 .reviews__hover {
+    padding: 25px 20px 18px 20px;
     position: absolute;
     top: 0;
     left: 0;
@@ -33,3 +36,4 @@
     opacity: 0;
 
 }
+

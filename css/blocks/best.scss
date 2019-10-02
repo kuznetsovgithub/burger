@@ -4,10 +4,18 @@
 
   .best__list {
       display: flex;
-      justify-content: space-around;
+      align-items: center;
+      justify-content: center;
 
   }
+.best__item {
+    text-align: center;
+    
+}
+ .best__title {
+     font-size: 25px;
+     font-family: "gagalin";
+     vertical-align: top;
+ 
 
-  .best__item {
-      text-align: center; 
-  }
+ }

@@ -37,15 +37,14 @@
 .burgers-menu__list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     background: #fff;
-    width: 200px;
-    height: 250px;
+    width: 230px;
+    height: 300px;
     display:none;
     position: absolute;
-    right: 45%;
-    opacity: 0.7;
+    right: 39.5%;
+    opacity: 0.85;
 
 }
 .burger__icon { 
@@ -56,8 +55,17 @@
 }
 .icons__call {
     position: absolute;
+    color: #fff;
     top: 36%;
     right: 91%;
+}
+.icons__calls{
+    position: absolute;
+    color: #fff;
+    font-size: 13px;
+    top: 92%;
+    right: 90.5%;
+    text-transform: uppercase;
 }
 .burgers__price {
     padding-top: 20px;
@@ -78,4 +86,12 @@
     color: red;
     padding-right: 20px;
     font-weight: 700;
+}
+
+.sostav__item{
+    display: flex;
+    justify-content: space-around;
+}
+.sostav__List {
+
 }

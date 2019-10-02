@@ -10,6 +10,10 @@
     bottom: 0;
     width: 50%;
     background: rgba(#2f3234, .93);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 150px;
 }
 
 .acco__trigger{
@@ -34,10 +38,17 @@
 .acco__desc {
     color: #fff;
     margin-left: 20px;
+    margin-top: 20px;
+    color: #fff;
+    margin-left: 20px;
+    
 }
 
 .acco__desc-title {
     font-weight: bold;
+}
+.acco__desc-text {
+    width: 200px;
 }
 .acco__content {
     display: flex;
@@ -51,12 +62,17 @@
     overflow: hidden;
     flex-basis: 100%;
     max-width: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
 }
 
 .acco__list {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.acco__item {
+    padding-bottom: 30px;
 }
 
 .section-title_align-right{

@@ -22,3 +22,14 @@
 .section-title_white {
     color:white; 
 }
+
+.section-title--color_black {
+    margin-bottom: 75px;
+}
+
+.section-title_center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
