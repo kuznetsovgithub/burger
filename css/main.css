@@ -204,7 +204,7 @@ footer {
   justify-content: flex-start; }
 
 .best {
-  background: url(/img/slider_2/body.png) center center/cover no-repeat; }
+  background: url(../img/slider_2/body.png) center center/cover no-repeat; }
 
 .best__list {
   display: -webkit-box;
@@ -217,7 +217,7 @@ footer {
   text-align: center; }
 
 .team {
-  background: url(/img/slider_4/back__main.png) center center/cover no-repeat;
+  background: url(../img/slider_4/back__main.png) center center/cover no-repeat;
   position: relative; }
 
 .team__container {
@@ -334,7 +334,7 @@ footer {
   opacity: 0; }
 
 .order {
-  background: url("/img/slider_6/back.png") center center/cover no-repeat;
+  background: url("../img/slider_6/back.png") center center/cover no-repeat;
   color: #fff; }
 
 .form__input {
@@ -357,7 +357,7 @@ footer {
     margin-right: 0; }
 
 .burger {
-  background: url(/img/slider_3/body__screen.png) center center/cover no-repeat; }
+  background: url(../img/slider_3/body__screen.png) center center/cover no-repeat; }
 
 .burgers__content {
   display: -webkit-box;
@@ -456,7 +456,7 @@ footer {
   font-weight: 700; }
 
 .menu {
-  background: url(/img/slider_8/back.png) center center/cover no-repeat;
+  background: url(../img/slider_8/back.png) center center/cover no-repeat;
   position: relative; }
 
 .container-menu {
