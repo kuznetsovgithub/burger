@@ -385,7 +385,7 @@ footer {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: flex-start;
-  padding-top: 100gpx; }
+  padding-top: 100px; }
 
 .form__input {
   border: none;
